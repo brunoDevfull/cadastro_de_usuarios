@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>931</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QFrame" name="DADOS_PESSOAIS">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 94, 226);
+font: 9pt &quot;Nirmala UI&quot;;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="title_dados_pessoais">
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>DADOS PESSOAIS</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="nome_completo">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Nome Completo</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_nome_completo">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+font: 9pt &quot;Nirmala UI&quot;;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_sexo">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Sexo</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="sx_masculino">
+        <property name="text">
+         <string>Masculino</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="sx_feminino">
+        <property name="text">
+         <string>Feminino</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="dataNascimento">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Data de Nascimento</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_dataNascimento">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="cpf">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>CPF</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cpf">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="email">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_email">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_login">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Crie seu Login</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_login">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_senha">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Crie sua Senha</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_senha">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="ENDERECO">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(46, 94, 226);
+font: 9pt &quot;Nirmala UI&quot;;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="title_endereco">
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Comic Sans MS&quot;;</string>
+        </property>
+        <property name="text">
+         <string>ENDEREÇO</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="cep">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>CEP</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cep">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="cidade">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Cidade</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_cidade">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="estado">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Estado</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_estado">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="rua">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Rua</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_rua">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="numero">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Numero</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_numero">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="bairro">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Bairro</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_bairro">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="complemento">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Nirmala UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Complemento - opcional</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_complemento">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_cadastrar">
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 13pt &quot;Nirmala UI&quot;;
+
+background-color: rgb(0, 176, 0);</string>
+     </property>
+     <property name="text">
+      <string>CADASTRAR</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_cancelar">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font: 13pt &quot;Nirmala UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>CANCELAR</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
